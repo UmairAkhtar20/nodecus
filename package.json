@@ -1,0 +1,24 @@
+{
+  "name": "nodecusmod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "rm -rf build/ && pretier --write source/ && tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "ts-node": "^10.1.0",
+    "tsc": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.19.1",
+    "@types/node": "^16.4.12",
+    "typescript": "^4.3.5"
+  }
+}
